@@ -1,0 +1,18 @@
+2019-01-18 12:48:42,648-ERROR-logger.py-yuxuan-日志信息:出错了,'验证码错误' != 该手机号已被注册
+Traceback (most recent call last):
+  File "E:\pycharm_home\auto_test_register_api\test_case\test_register.py", line 67, in test_register
+    self.assertEqual(case.expected, res['retInfo'])
+  File "E:\setup\python35\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "E:\setup\python35\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: '验证码错误' != 该手机号已被注册
+2019-01-18 12:49:42,847-ERROR-logger.py-yuxuan-日志信息:出错了,'ok' != 该手机号已被注册
+Traceback (most recent call last):
+  File "E:\pycharm_home\auto_test_register_api\test_case\test_register.py", line 67, in test_register
+    self.assertEqual(case.expected, res['retInfo'])
+  File "E:\setup\python35\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "E:\setup\python35\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 'ok' != 该手机号已被注册
